@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru" data-bg="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Alatau Air Cargo — грузовая авиакомпания, хаб Караганда</title>
+<meta name="description" content="Alatau Air Cargo — казахстанская грузовая авиакомпания с базой в аэропорту «Сары-Арка» (Караганда). Коридор Китай — Европа и Ближний Восток, флот Airbus A340-600.">
+<meta name="theme-color" content="#0b0b0b">
+<meta property="og:title" content="Alatau Air Cargo">
+<meta property="og:description" content="Воздушный коридор между Азией и Европой — через Караганду.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+<script src="assets/js/theme.js"></script>
+</head>
+<body>
+<div class="bgfx" aria-hidden="true"><div class="bg-dots"></div><div class="bg-nebula"></div><canvas id="stars"></canvas><div class="bg-grid"></div><div class="bg-sun"></div><div class="bg-blobs"><i></i><i></i><i></i></div><div class="bg-img"></div><div class="bg-dim"></div></div>
+
+<!-- logo symbol, reused in nav and footer -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs><clipPath id="mk-c"><circle cx="24" cy="24" r="20.6"/></clipPath></defs>
+  <symbol id="mark" viewBox="0 0 48 48">
+    <g clip-path="url(#mk-c)">
+      <ellipse style="stroke:currentColor" cx="24" cy="24" rx="9.5" ry="21.5" fill="none" stroke-width=".6" opacity=".35"/>
+      <path style="stroke:currentColor" d="M0 17 Q24 13 48 17" fill="none" stroke-width=".6" opacity=".35"/>
+      <path style="fill:currentColor" d="M0 36 L10 27.5 L15 31 L24.5 19.5 L31 26.5 L35 23.5 L48 34 V48 H0 Z"/>
+      <path style="fill:var(--page)" d="M21.6 23 L24.5 19.5 L27.6 22.8 L25.6 22 L24.4 23.4 L23.2 22.2 Z"/>
+      <path style="stroke:var(--acc)" d="M0 41.5 C10 38 26 36.5 48 39" fill="none" stroke-width="1.2"/>
+    </g>
+    <circle style="stroke:currentColor" cx="24" cy="24" r="21.5" fill="none" stroke-width="1.3"/>
+    <path style="stroke:var(--acc)" d="M6.4 24.4 C12 12.8 24.5 8 35.6 10.9" fill="none" stroke-width="1.9" stroke-linecap="round"/>
+    <path style="fill:var(--acc)" transform="translate(39.6 12.4) rotate(17) scale(1.25)" d="M3.2 0 C3.2 -.5 2.6 -.7 1.6 -.7 L-.2 -.7 L-1.6 -3.4 L-2.6 -3.4 L-1.9 -.7 L-3 -.7 L-3.7 -1.8 L-4.3 -1.8 L-3.9 0 L-4.3 1.8 L-3.7 1.8 L-3 .7 L-1.9 .7 L-2.6 3.4 L-1.6 3.4 L-.2 .7 L1.6 .7 C2.6 .7 3.2 .5 3.2 0 Z"/>
+    <circle style="fill:var(--gold)" cx="6.4" cy="24.4" r="2.1"/>
+  </symbol>
+</svg>
+
+<nav class="top" aria-label="Основная навигация"><div class="wrap">
+  <a class="brand" href="#top" aria-label="Alatau Air Cargo — наверх">
+    <svg class="mark" aria-hidden="true"><use href="#mark"/></svg>
+    <span><b>ALATAU</b><small>AIR CARGO</small></span>
+  </a>
+  <div class="links" id="links">
+    <a href="#services">Услуги</a><a href="#fleet">Флот</a><a href="#network">Сеть</a><a href="#hub">Хаб</a><a href="#calc">Калькулятор</a><a href="#about">О компании</a><a href="#contact">Контакты</a>
+  </div>
+  <button class="icon-btn" id="bgNav" type="button" aria-label="Сменить фон сайта" aria-controls="bgPanel" aria-expanded="false" title="Сменить фон"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18c1.2 0 1.8-.9 1.4-1.9-.5-1.2.3-2.4 1.6-2.4H17a4 4 0 0 0 4-4c0-5.2-4-9.7-9-9.7Z"/><circle cx="7.5" cy="11" r="1.2" fill="currentColor"/><circle cx="10.5" cy="7" r="1.2" fill="currentColor"/><circle cx="15.5" cy="7.5" r="1.2" fill="currentColor"/></svg></button>
+  <button class="icon-btn" id="menuBtn" type="button" aria-label="Меню" aria-controls="links" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+  <a class="cta" href="#contact">Отправить запрос</a>
+</div></nav>
+
+<main>
+<header id="top" class="wrap hero">
+  <div class="hero-copy">
+    <span class="kicker">Грузовая авиакомпания · Казахстан</span>
+    <h1>Воздушный коридор между Азией и Европой — <em>через Караганду</em></h1>
+    <p class="lede">Alatau Air Cargo выстраивает грузовые перевозки из Китая и Юго-Восточной Азии в Европу и на Ближний Восток с базой в аэропорту «Сары-Арка».</p>
+    <div class="acts"><a class="cta" href="#contact">Запрос на перевозку <span aria-hidden="true">→</span></a><a class="ghost" href="#fleet">Флот в 3D</a></div>
+    <div class="badges"><span>Хаб KGF · «Сары-Арка»</span><span>Airbus A340-600</span><span>Авиа + ж/д</span></div>
+  </div>
+  <div class="plate hero-fig">
+    <span class="corner c-fig">Fig 1</span><span class="corner c-title">Сеть · проекция на глобус</span>
+    <div class="stage" id="globe" tabindex="0" role="img" aria-label="Глобус с маршрутами из Караганды; тяните, чтобы повернуть"><div class="fallback" id="gfb">загрузка 3D…</div></div>
+    <span class="corner c-hint">Тяните глобус</span><span class="corner c-read" id="gr">LON 070° · LAT 35°</span>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true"><div class="run" id="ticker"></div></div>
+
+<div class="wrap" style="padding-block:clamp(40px,6vw,72px)">
+  <div class="stats rv">
+    <div class="stat"><b data-count="2">2</b><span>A340-600 в лизинге на 24 месяца</span></div>
+    <div class="stat"><b data-count="71" data-pre="~$" data-suf=" млн">~$71 млн</b><span>заём $15,5 млн и облигации около $56 млн</span></div>
+    <div class="stat"><b data-count="200" data-suf=" тыс. т">200 тыс. т</b><span>план обработки грузов в «Сары-Арке» к 2030 году</span></div>
+    <div class="stat"><b data-count="2027" data-plain="1">2027</b><span>первые рейсы в Гонконг</span></div>
+  </div>
+</div>
+
+<section id="services" style="border-top:1px solid var(--faint)">
+<div class="wrap">
+  <div class="head rv"><div><span class="kicker">Услуги</span><h2>Что можно возить через хаб</h2></div><p>Полный цикл авиаперевозки на коридоре Азия — Европа: от генеральных грузов и e-commerce до опасных и негабаритных отправок. Условия по каждому виду груза уточняйте у отдела продаж.</p></div>
+  <div class="grid3 rv">
+    <article class="svc"><span class="num">01</span>
+      <svg viewBox="0 0 52 52" aria-hidden="true"><path class="f" d="M8 20 L26 12 L44 20 L44 38 L26 46 L8 38 Z"/><path d="M8 20 L26 28 L44 20 M26 28 V46"/><path class="a" d="M17 16 L35 24 V31"/></svg>
+      <h3>Генеральные грузы</h3><p>Паллеты и контейнеры ULD на главной палубе и в нижних отсеках, регулярные рейсы и разовые отправки.</p>
+      <ul><li>Паллеты PMC, контейнеры LD7</li><li>Консолидация от экспедиторов</li></ul>
+    </article>
+    <article class="svc"><span class="num">02</span>
+      <svg viewBox="0 0 52 52" aria-hidden="true"><rect class="f" x="9" y="16" width="34" height="26"/><path d="M9 24 H43 M20 16 V24 M32 16 V24"/><path class="a" d="M15 33 H24 M15 37 H30"/><path d="M18 10 H34"/></svg>
+      <h3>E-commerce из Китая</h3><p>Посылки маркетплейсов: сортировка по странам назначения, таможенные реестры, передача в доставку последней мили.</p>
+      <ul><li>Маркетплейсы и почтовые отправления</li><li>Электронные реестры для таможни</li></ul>
+    </article>
+    <article class="svc"><span class="num">03</span>
+      <svg viewBox="0 0 52 52" aria-hidden="true"><rect class="f" x="12" y="12" width="28" height="30" rx="2"/><path d="M26 18 V30"/><circle class="a" cx="26" cy="33" r="4"/><path d="M30 20 H34 M30 24 H33 M30 28 H34"/></svg>
+      <h3>Температурные грузы</h3><p>Фармацевтика, свежие продукты и цветы в активных и пассивных контейнерах с контролем цепи холода.</p>
+      <ul><li>Диапазоны +2…+8 °C и +15…+25 °C</li><li>Мониторинг температуры</li></ul>
+    </article>
+    <article class="svc"><span class="num">04</span>
+      <svg viewBox="0 0 52 52" aria-hidden="true"><path class="f" d="M26 8 L44 26 L26 44 L8 26 Z"/><path class="a" d="M26 18 V29"/><circle cx="26" cy="34" r="1.2"/></svg>
+      <h3>Опасные и спецгрузы</h3><p>Литиевые батареи, химия и другие классы DG по правилам IATA, проверка декларации отправителя.</p>
+      <ul><li>Литиевые батареи и электроника</li><li>Проверка DGD до вылета</li></ul>
+    </article>
+    <article class="svc"><span class="num">05</span>
+      <svg viewBox="0 0 52 52" aria-hidden="true"><rect class="f" x="6" y="22" width="40" height="14"/><path d="M6 30 H46"/><circle cx="14" cy="40" r="3"/><circle cx="38" cy="40" r="3"/><path class="a" d="M12 18 L40 12"/></svg>
+      <h3>Негабарит и чартеры</h3><p>Оборудование для нефтегаза, горнодобычи и строительства. Чартер всего борта под проект.</p>
+      <ul><li>Расчёт загрузки и креплений</li><li>Чартеры под проект</li></ul>
+    </article>
+    <article class="svc"><span class="num">06</span>
+      <svg viewBox="0 0 52 52" aria-hidden="true"><path d="M6 38 H46"/><rect class="f" x="8" y="28" width="14" height="8"/><rect class="f" x="24" y="28" width="14" height="8"/><path class="a" d="M10 20 C20 10 32 10 42 18"/><path d="M38 14 L42 18 L37 21"/></svg>
+      <h3>Авиа + железная дорога</h3><p>Часть пути — самолётом, часть — поездом. Компания создана в контуре КТЖ, поэтому такая связка для неё естественна.</p>
+      <ul><li>Сквозная ставка «от двери до двери»</li><li>Одна транспортная накладная</li></ul>
+    </article>
+  </div>
+</div>
+</section>
+
+<section id="fleet">
+<div class="wrap">
+  <div class="head rv"><div><span class="kicker">Флот</span><h2>Самолёты на поворотном столе</h2></div><p>Два Airbus A340-600 в операционном лизинге — основа старта. Boeing 777 компания рассматривает к покупке в 2027 году.</p></div>
+  <div class="plate rv">
+    <span class="corner c-fig">Fig 2</span><span class="corner c-title" id="f1title">A340-600 · поворотный стол</span>
+    <div class="stage" id="stage" tabindex="0" role="group" aria-label="3D-модель самолёта. Тяните или нажимайте стрелки, чтобы повернуть."><div class="fallback" id="fb">загрузка 3D…</div></div>
+    <span class="corner c-hint">Тяните, чтобы повернуть</span><span class="corner c-read" id="r1">AZ 000° · ЛЮК 0° · ULD 0/8</span>
+  </div>
+  <div class="controls" role="group" aria-label="Самолёт и действия">
+    <button id="bA" type="button" aria-pressed="true">Airbus A340-600</button>
+    <button id="bB" type="button" aria-pressed="false">Boeing 777F</button>
+    <button id="bDoor" type="button">Открыть люк и загрузить</button>
+    <button id="bView" type="button">Вид: облёт</button>
+  </div>
+  <div class="specs" id="specs"></div>
+  <p class="legend">Модели упрощены, пропорции взяты по габаритам типов. Грузовой люк показан на левом борту, контейнеры подаёт погрузчик. Первый A340-600 ожидается в ближайшее время, второй — в марте 2027.</p>
+</div>
+</section>
+
+<section id="network">
+<div class="wrap">
+  <div class="head rv"><div><span class="kicker">Сеть</span><h2>Маршруты на реальной карте</h2></div><p>Выберите город: линия покажет кратчайший путь по поверхности Земли (ортодромию) из Караганды, а ниже появится расчёт времени в пути.</p></div>
+  <div class="plate wmap rv">
+    <span class="corner c-fig">Fig 3</span><span class="corner c-title">Natural Earth · хаб KGF</span>
+    <svg id="wmap" role="img" aria-label="Карта мира с маршрутами из Караганды"></svg>
+    <span class="corner c-hint">Выберите направление</span><span class="corner c-read" id="r3">KGF — HKG</span>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Направления"></div>
+  <div class="calc">
+    <div><b id="cDist">—</b><span>расстояние, км</span></div>
+    <div><b id="cTime">—</b><span>в воздухе: 850 км/ч + 30 мин</span></div>
+    <div><b id="cFuel">—</b><span>разница часовых поясов</span></div>
+    <div><b id="cStat">—</b><span>статус</span></div>
+  </div>
+  <p class="legend">Первое объявленное направление — Гонконг (начало 2027). Остальные города — ключевые узлы коридоров Китай ↔ Европа и Ближний Восток, которые рассматриваются для сети; это не расписание. Карта: Natural Earth, 1:110 млн.</p>
+</div>
+</section>
+
+<section id="hub">
+<div class="wrap">
+  <div class="head rv"><div><span class="kicker">Хаб</span><h2>«Сары-Арка», Караганда</h2></div><p>Компания перерегистрирована из Астаны в Карагандинскую область, чтобы базироваться в аэропорту «Сары-Арка», который развивается как грузовой хаб.</p></div>
+  <div class="grid3 rv">
+    <div class="col"><span class="n">Положение</span><h3>На полпути</h3><p>Караганда лежит между производственными центрами Китая и логистическими хабами Европы: удобная точка для смены экипажа, дозаправки и перегрузки.</p></div>
+    <div class="col"><span class="n">Мощность</span><h3>200 тыс. т к 2030 году</h3><p>Аэропорт планирует увеличить ежегодную обработку грузов до этого уровня к 2030 году.</p></div>
+    <div class="col"><span class="n">Связка</span><h3>Авиа и рельсы</h3><p>В группу акционеров входит железнодорожный оператор Tranzit Trans Logistics. Авиацию и железную дорогу можно свести в один маршрут.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="process">
+<div class="wrap">
+  <div class="head rv"><div><span class="kicker">Перевозка</span><h2>Как идёт груз</h2></div><p>Типовая цепочка для отправки из Китая в Европу через хаб.</p></div>
+  <div class="grid4 rv">
+    <div class="col step"><b>01 · Заявка</b><h3>Бронирование</h3><p>Экспедитор бронирует место, указывает вес, объём и тип груза.</p><i class="bar"></i></div>
+    <div class="col step"><b>02 · Склад</b><h3>Приём и ULD</h3><p>Груз взвешивают, собирают на паллеты, оформляют авианакладную (AWB).</p><i class="bar"></i></div>
+    <div class="col step"><b>03 · Транзит</b><h3>Караганда</h3><p>Груз под таможенным контролем перегружают на следующий рейс или поезд.</p><i class="bar"></i></div>
+    <div class="col step"><b>04 · Выдача</b><h3>Европа и Ближний Восток</h3><p>Таможня в стране назначения и передача на последнюю милю.</p><i class="bar"></i></div>
+  </div>
+</div>
+</section>
+
+<section id="calc">
+<div class="wrap">
+  <div class="head rv"><div><span class="kicker">Калькулятор</span><h2>Платный вес отправки</h2></div><p>В авиаперевозке тариф применяется к большему из двух весов — фактическому или объёмному (стандарт IATA: 1 м³ = 167 кг, делитель 6000). Посчитайте заранее, сколько будет весить ваш груз «для тарифа».</p></div>
+  <div class="cc rv">
+    <div>
+      <form class="fields" id="ccForm" onsubmit="return false">
+        <label class="f">Количество мест<input id="ccN" type="number" min="1" step="1" value="10" inputmode="numeric"></label>
+        <label class="f">Вес одного места, кг<input id="ccW" type="number" min="0" step="0.1" value="35" inputmode="decimal"></label>
+        <label class="f">Длина, см<input id="ccL" type="number" min="1" step="1" value="120" inputmode="numeric"></label>
+        <label class="f">Ширина, см<input id="ccB" type="number" min="1" step="1" value="80" inputmode="numeric"></label>
+        <label class="f">Высота, см<input id="ccH" type="number" min="1" step="1" value="60" inputmode="numeric"></label>
+        <label class="f">Направление<select id="ccTo"></select></label>
+      </form>
+      <p class="legend">Расчёт ориентировочный и не является предложением цены. Количество паллет — грубая оценка по объёму и весу для главной палубы.</p>
+    </div>
+    <div>
+      <div class="out">
+        <div class="big"><b id="oCh">—</b><span id="oChL">платный вес, кг</span></div>
+        <div><b id="oAct">—</b><span>фактический вес, кг</span></div>
+        <div><b id="oVol">—</b><span>объёмный вес, кг</span></div>
+        <div><b id="oM3">—</b><span>объём, м³</span></div>
+        <div><b id="oDen">—</b><span>плотность, кг/м³</span></div>
+        <div><b id="oPmc">—</b><span>≈ паллет PMC</span></div>
+        <div><b id="oFly">—</b><span id="oFlyL">в воздухе</span></div>
+      </div>
+      <div class="meter" aria-hidden="true"><i id="oBar" style="width:0"></i></div>
+      <p class="legend" id="oNote"></p>
+      <button class="cta" type="button" id="ccSend" style="margin-top:16px">Отправить расчёт в запрос →</button>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="about">
+<div class="wrap">
+  <div class="head rv"><div><span class="kicker">О компании</span><h2>От «дочки» КТЖ к частному перевозчику</h2></div><p>Совет директоров возглавляет Тимур Турлов. В него вошёл Питер Фостер, бывший глава Air Astana, который руководил ею более двадцати лет.</p></div>
+  <ol class="tl rv">
+    <li class="done"><time>Октябрь 2025</time><b>Создано АО KTZ Air Cargo</b><p>Учредитель — KTZ Express, логистическая «дочка» «Қазақстан темір жолы». Уставный капитал — 196,6 млн тенге.</p></li>
+    <li class="done"><time>22 мая 2026</time><b>Новый совет директоров</b><p>Акционеры решили переименовать компанию и сменить адрес регистрации.</p></li>
+    <li class="done"><time>10 июня 2026</time><b>Alatau Air Cargo</b><p>Новое название зарегистрировано, компания «переехала» в Карагандинскую область.</p></li>
+    <li><time>Ближайшие месяцы</time><b>Первый A340-600</b><p>Операционный лизинг на 24 месяца.</p></li>
+    <li><time>Начало 2027</time><b>Рейсы в Гонконг</b></li>
+    <li><time>Март 2027</time><b>Второй A340-600</b></li>
+    <li><time>2027</time><b>Boeing 777 — возможная покупка</b></li>
+  </ol>
+</div>
+</section>
+
+<section id="faq">
+<div class="wrap">
+  <div class="head rv"><div><span class="kicker">Вопросы</span><h2>Коротко о главном</h2></div><p>Не нашли ответ — напишите нам через форму ниже.</p></div>
+  <div class="rv">
+  <details open><summary>Когда начнутся регулярные рейсы?</summary><p>Компания готовит запуск: первый A340-600 ожидается в ближайшее время, первое направление — Гонконг в начале 2027 года.</p></details>
+  <details><summary>Почему база в Караганде, а не в Алматы или Астане?</summary><p>Аэропорт «Сары-Арка» входит в ту же группу акционеров и развивается как грузовой хаб. Компания специально перерегистрирована в Карагандинскую область.</p></details>
+  <details><summary>Чем A340-600 подходит для старта?</summary><p>Это дальнемагистральный четырёхдвигательный самолёт. Лизинг на 24 месяца позволяет начать полёты до покупки собственного флота.</p></details>
+  <details><summary>Как рассчитывается стоимость?</summary><p>Тариф применяется к платному весу — большему из фактического и объёмного. Посчитать его можно в калькуляторе выше, а точную ставку под ваш маршрут пришлёт отдел продаж.</p></details>
+  <details><summary>Как отправить груз?</summary><p>Заполните форму запроса: укажите маршрут, вес, габариты и тип груза. Менеджер свяжется с вами и пришлёт предложение.</p></details>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="wrap">
+  <div class="head rv"><div><span class="kicker">Контакты</span><h2>Запрос на перевозку</h2></div><p>Оставьте параметры груза — отдел продаж подготовит предложение по маршруту, срокам и ставке.</p></div>
+  <div class="contact rv">
+    <form class="form" id="reqForm" novalidate>
+      <div class="fields">
+        <label class="f">Имя и фамилия<input name="name" required autocomplete="name"></label>
+        <label class="f">Компания<input name="company" autocomplete="organization"></label>
+        <label class="f">E-mail<input name="email" type="email" required autocomplete="email"></label>
+        <label class="f">Телефон<input name="phone" type="tel" autocomplete="tel"></label>
+        <label class="f">Откуда<input name="from" placeholder="Например, Шанхай"></label>
+        <label class="f">Куда<input name="to" placeholder="Например, Будапешт"></label>
+        <label class="f">Тип груза<select name="type"><option>Генеральный груз</option><option>E-commerce</option><option>Температурный</option><option>Опасный (DG)</option><option>Негабарит / чартер</option><option>Авиа + ж/д</option></select></label>
+        <label class="f">Вес и объём<input name="weight" id="reqWeight" placeholder="кг / м³"></label>
+        <label class="f wide">Комментарий<textarea name="msg" placeholder="Даты, особые условия, ссылка на упаковочный лист"></textarea></label>
+      </div>
+      <div class="row"><button class="cta" type="submit">Отправить запрос →</button><span class="hint" id="reqHint">Откроется почтовая программа с заполненным письмом.</span></div>
+    </form>
+    <div class="contact-cards">
+      <div class="contact-card"><span class="n">Отдел продаж</span><a data-contact="email" href="#"></a></div>
+      <div class="contact-card"><span class="n">Телефон</span><a data-contact="phone" href="#"></a></div>
+      <div class="contact-card"><span class="n">База</span><b>Аэропорт «Сары-Арка»</b><p class="legend" style="margin-top:4px">Караганда, Казахстан · IATA: KGF</p></div>
+      <div class="contact-card"><span class="n">Часы работы</span><b data-contact="hours"></b></div>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">
+  <div class="cols">
+    <div>
+      <a class="brand" href="#top" style="margin:0 0 16px"><svg class="mark" aria-hidden="true"><use href="#mark"/></svg><span><b>ALATAU</b><small>AIR CARGO</small></span></a>
+      <p>Грузовая авиакомпания Казахстана. Хаб — аэропорт «Сары-Арка», Караганда.</p>
+    </div>
+    <div><h4>Компания</h4><ul><li><a href="#about">О компании</a></li><li><a href="#hub">Хаб</a></li><li><a href="#fleet">Флот</a></li></ul></div>
+    <div><h4>Клиентам</h4><ul><li><a href="#services">Услуги</a></li><li><a href="#calc">Калькулятор</a></li><li><a href="#faq">Вопросы</a></li></ul></div>
+    <div><h4>Связь</h4><ul><li><a data-contact="email" href="#"></a></li><li><a data-contact="phone" href="#"></a></li><li><a href="#contact">Форма запроса</a></li></ul></div>
+  </div>
+  <div class="legal"><span>© <span id="year">2026</span> Alatau Air Cargo</span><span>Источники: Forbes Kazakhstan, Air Cargo Week, digitalbusiness.kz, bizmedia.kz, NUR.KZ. Карта — Natural Earth.</span></div>
+</div></footer>
+
+<!-- background switcher -->
+<button class="bg-fab" id="bgFab" type="button" aria-controls="bgPanel" aria-expanded="false"><span class="sw" aria-hidden="true"></span><span class="t">Фон</span></button>
+<div class="panel" id="bgPanel" hidden role="dialog" aria-label="Фон сайта">
+  <h3>Фон сайта <button class="close" type="button" aria-label="Закрыть">×</button></h3>
+  <span class="lbl">Готовые темы</span>
+  <div class="swatches"></div>
+  <span class="lbl">Свой цвет</span>
+  <div class="pick"><input type="color" id="bgColor" value="#14213d" aria-label="Выбрать цвет фона"><div class="presets"></div></div>
+  <span class="lbl">Пейзажи</span>
+  <div class="thumbs"></div>
+  <span class="lbl">Своё изображение</span>
+  <label class="drop"><input type="file" id="bgFile" accept="image/*"><span>Перетащите фото сюда или <u>выберите файл</u></span></label>
+  <div class="range" hidden><span>Затемнение</span><input type="range" id="bgDim" min="0" max="90" value="55" aria-label="Затемнение фона"></div>
+  <div class="tone-row" hidden><span class="lbl">Текст поверх фото</span><div class="tone-toggle"><button type="button" data-tone-set="dark" aria-pressed="true">Светлый текст</button><button type="button" data-tone-set="light" aria-pressed="false">Тёмный текст</button></div></div>
+  <div class="foot"><span class="legend" id="bgStatus" style="margin:0" aria-live="polite"></span><button type="button" id="bgReset">Сбросить</button></div>
+</div>
+
+<script src="assets/vendor/three.min.js"></script>
+<script src="assets/js/geo.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
