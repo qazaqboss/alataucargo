@@ -26,6 +26,11 @@ const CONFIG={
 };
 ```
 
+## Превью ссылки (баннер)
+
+`og-image.jpg` (1200×630) показывается, когда ссылку на сайт пересылают в Telegram, WhatsApp, Facebook и т. п.
+Мессенджерам нужен полный адрес картинки: в `index.html` стоит `https://alataucargo.vercel.app/` — если домен на Vercel другой, замените его в метатегах `og:url`, `og:image`, `twitter:image`.
+
 ## Структура
 
 ```
